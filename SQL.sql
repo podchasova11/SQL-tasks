@@ -2,6 +2,7 @@
 SELECT *
 FROM students;
 
+
  --2. Вывести всех студентов в таблице.
 SELECT *
 FROM students;
