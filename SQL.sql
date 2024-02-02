@@ -61,7 +61,6 @@ SELECT *
 FROM students
 WHERE created_on = '2021-07-12 00:00:00' AND password = '1m313';
 
-
  --15. Вывести пользователей, которые были созданы 2021-07-12 00:00:00 и у которых в имени есть слово Andrey.
 SELECT *
 FROM students
@@ -143,6 +142,7 @@ FROM students;
 SELECT id, name, created_on
 FROM students
 ORDER BY created_on;
+
 
  --32. Вывести id пользователя, имя, дату создания пользователя. Отсортировать по порядку убывания даты добавления пользоватлеля.
 SELECT id, name, created_on
