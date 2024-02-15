@@ -148,4 +148,3 @@ ORDER BY created_on;
 SELECT id, name, created_on
 FROM students
 ORDER BY created_on DESC
-
